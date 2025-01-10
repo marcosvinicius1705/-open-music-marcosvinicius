@@ -1,0 +1,32 @@
+.price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price h3 {
+    margin-bottom: 3%;
+}
+
+#inputPrice {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+  width: 100%;
+  outline: none;
+  background-color: var(--color-brand-1);
+  transition: background 1000.3s ease-in-out;
+  border-radius: 0.5rem;
+  height: 0.5rem;
+  margin-bottom: 6%;
+}
+
+#inputPrice::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 30px;
+  width: 30px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 0.5rem solid var(--color-brand-1);
+}

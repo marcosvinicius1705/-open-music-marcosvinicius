@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/globalStyles.css">
+    <script defer src="scripts/index.js"></script>
+    <script defer src="scripts/albumsDatabase.js"></script>
+    <script defer src="scripts/theme.js"></script>
+    
+    <title>Open Music</title>
+  </head>
+  <body>
+   
+    <header>
+        <div class="header">
+            <h1>
+                <span>o</span>pen <span>m</span>usic
+            </h1>
+            <img class="sun" id="themeIcon" src="assets/icon/sun-icon.svg" aria-label="Alternar tema"/>
+        </div>
+        <hr> 
+    </header>
+
+    <main>
+      <section>
+        <h3>Gênero Musical</h3>
+        <div class="musicalGenre">
+            <ul>
+                <li>Todos</li>
+                <li>Pop</li>
+                <li>MPB</li>
+                <li>Forró</li>
+                <li>Samba</li>
+                <li>Bailão</li>
+                <li>Rap</li>
+                <li>Hip-Hop</li>
+            </ul>
+        </div>
+      </section>
+
+      <section>
+        <div class="price">
+            <h3>Definir preço</h3>
+            <h3>
+                Até <span class="price-number">R$ 150</span>
+            </h3>
+        </div>
+        <input type="range" id="inputPrice" name="price" min="0" max="150" value="150"/>
+      </section>
+
+      <section>
+        <h3>Albuns Encontrados</h3>
+        <div class="albumsContainer">
+
+            <!-- <div class="card">
+                <img src="assets/icon/imgs/cover-1.jpg" alt="band cover">
+                <div class="card-content">
+                    <h3 class="title">Acabou o Chorare</h3>
+                    <div class="card-paragraph">
+                        <p class="artist">Novos Baianos</p>
+                        <p class="genre">MPB</p>
+                    </div>
+                    <div class="card-paragraph">
+                        <p class="price"><strong>R$ 137,91</strong></p>
+                        <button class="buy-button">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="assets/icon/imgs/cover-2.jpg" alt="band cover">
+                <div class="card-content">
+                    <h3 class="title">The Wall</h3>
+                    <div class="card-paragraph">
+                        <p class="artist">Pink Floyd</p>
+                        <p class="genre">Rock</p>
+                    </div>
+                    <div class="card-paragraph">
+                        <p class="price"><strong>R$ 123,56</strong></p>
+                        <button class="buy-button">Comprar</button>
+                    </div>
+                </div>
+            </div>    
+           
+                <div class="card">
+                <img src="assets/icon/imgs/cover-3.jpg" alt="band cover">
+                <div class="card-content">
+                    <h3 class="title">To Pimp a Butterfly</h3>
+                    <div class="card-paragraph">
+                        <p class="artist">Kendrick Lamar</p>
+                        <p class="genre">Rap</p>
+                    </div>
+                    <div class="card-paragraph">
+                        <p class="price"><strong>R$ 102,66</strong></p>
+                        <button class="buy-button">Comprar</button>
+                    </div>
+                </div>
+            </div>          
+        </div> -->
+
+      </section>
+    </main>
+  
+  </body>
+</html>

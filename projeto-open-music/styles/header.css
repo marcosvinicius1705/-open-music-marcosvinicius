@@ -1,0 +1,35 @@
+header {
+    position: fixed;
+    z-index: 100;
+    background-color: var(--color-gray-8);
+    width: 100%;
+}
+
+.header{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+hr{
+    margin: 3% 10% 0 10%;
+    height: 4px; /* Define a altura da linha */
+    background-color: var(--color-brand-1); /* Cor da linha */
+    border: 0;
+}
+
+span {
+    color: var(--color-brand-1);
+  
+}
+
+.sun {
+    cursor: pointer;
+}
+
+.moon {
+    display: none;
+    cursor: pointer;
+}
